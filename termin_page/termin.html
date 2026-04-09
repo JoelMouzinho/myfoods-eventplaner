@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termin - Eventplaner</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="../icons/icon32x32nameless.png">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-title">
+            <a href="../start_page/index.html"><img src="../icons/icon32x32.png" alt="myfoods"></a>
+            <h1>Eventplaner</h1>
+            <nav>
+                <ul>
+                    <li><a href="../unterhaltung_page/unterhaltung.html">Unterhaltung</a></li>
+                    <li><a href="../mobilliar_page/mobilliar.html">Mobilliar</a></li>
+                    <li><a href="../menue_page/menue.html">Menü</a></li>
+                    <li><a href="../energieversorgung_page/energieversorgung.html">Energieversorgung</a></li>
+                    <li><a href="../termin_page/termin.html">Termin</a></li>
+                    <li><a href="../uebersicht_page/uebersicht.html">Übersicht</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button id="theme-toggle">🌙</button>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Termin festlegen</h2>
+            <p>Wähle Datum und Uhrzeit für dein Event aus.</p>
+        </section>
+
+        <section class="features">
+
+            <!-- Datum -->
+            <div class="feature">
+                <h3>Datum auswählen</h3>
+                <p>Wähle das gewünschte Datum:</p>
+                <input type="date" class="date-input">
+            </div>
+
+            <!-- Uhrzeit -->
+            <div class="feature">
+                <h3>Uhrzeit auswählen</h3>
+                <p>Wähle die Startzeit:</p>
+                <input type="time" class="time-input">
+            </div>
+
+            <!-- Optional: Ende -->
+            <div class="feature">
+                <h3>Endzeit (optional)</h3>
+                <p>Wann endet dein Event?</p>
+                <input type="time" class="time-input">
+            </div>
+
+            <!-- Notizen -->
+            <div class="feature">
+                <h3>Notizen</h3>
+                <p>Zusätzliche Informationen zum Termin:</p>
+                <textarea class="note-input" rows="4" placeholder="z.B. Aufbau ab 14:00"></textarea>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MyFoods-Eventplaner</p>
+    </footer>
+
+    <script src="../src/theme-toggle.js"></script>
+    <script src="../src/app.js"></script>
+</body>
+
+</html>

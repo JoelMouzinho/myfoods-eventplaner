@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobilliar - Eventplaner</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="../icons/icon32x32nameless.png">
+</head>
+
+<body>
+    <header>
+        <div class="logo-title">
+            <a href="../start_page/index.html"><img src="../icons/icon32x32.png" alt="myfoods"></a>
+            <h1>Eventplaner</h1>
+            <nav>
+                <ul>
+                    <li><a href="../unterhaltung_page/unterhaltung.html">Unterhaltung</a></li>
+                    <li><a href="../mobilliar_page/mobilliar.html">Mobilliar</a></li>
+                    <li><a href="../menue_page/menue.html">Menü</a></li>
+                    <li><a href="../energieversorgung_page/energieversorgung.html">Energieversorgung</a></li>
+                    <li><a href="../termin_page/termin.html">Termin</a></li>
+                    <li><a href="../uebersicht_page/uebersicht.html">Übersicht</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button id="theme-toggle">🌙</button>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Mobilliar auswählen</h2>
+            <p>Wähle aus, welche Stühle, Tische, Grill und Bar du für dein Event möchtest. Mehrere Optionen sind
+                kombinierbar.</p>
+        </section>
+
+        <section class="features">
+            <label class="feature">
+                <input type="checkbox" name="mobilliar" value="stuehle">
+                <img src="https://via.placeholder.com/150" alt="Stühle"
+                    style="width:100%; border-radius: 10px; margin-bottom: 10px;">
+                <h3>Stühle</h3>
+                <p>Wähle die passenden Stühle für deine Gäste.</p>
+            </label>
+
+            <label class="feature">
+                <input type="checkbox" name="mobilliar" value="tische">
+                <img src="https://via.placeholder.com/150" alt="Tische"
+                    style="width:100%; border-radius: 10px; margin-bottom: 10px;">
+                <h3>Tische</h3>
+                <p>Plane die Tische passend für dein Event.</p>
+            </label>
+
+            <label class="feature">
+                <input type="checkbox" name="mobilliar" value="grill">
+                <img src="https://via.placeholder.com/150" alt="Grill"
+                    style="width:100%; border-radius: 10px; margin-bottom: 10px;">
+                <h3>Grill</h3>
+                <p>Füge einen Grill für dein Event hinzu.</p>
+            </label>
+
+            <label class="feature">
+                <input type="checkbox" name="mobilliar" value="bar">
+                <img src="https://via.placeholder.com/150" alt="Bar"
+                    style="width:100%; border-radius: 10px; margin-bottom: 10px;">
+                <h3>Bar</h3>
+                <p>Stelle eine Bar für Getränke bereit.</p>
+            </label>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MyFoods-Eventplaner</p>
+    </footer>
+
+    <script src="../src/theme-toggle.js"></script>
+    <script src="../src/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energieversorgung - Eventplaner</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="../icons/icon32x32nameless.png">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-title">
+            <a href="../start_page/index.html"><img src="../icons/icon32x32.png" alt="myfoods"></a>
+            <h1>Eventplaner</h1>
+            <nav>
+                <ul>
+                    <li><a href="../unterhaltung_page/unterhaltung.html">Unterhaltung</a></li>
+                    <li><a href="../mobilliar_page/mobilliar.html">Mobilliar</a></li>
+                    <li><a href="../menue_page/menue.html">Menü</a></li>
+                    <li><a href="../energieversorgung_page/energieversorgung.html">Energieversorgung</a></li>
+                    <li><a href="../termin_page/termin.html">Termin</a></li>
+                    <li><a href="../uebersicht_page/uebersicht.html">Übersicht</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button id="theme-toggle">🌙</button>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Energieversorgung auswählen</h2>
+            <p>Wähle aus, welche Energiequellen und Anschlüsse du für dein Event benötigst.</p>
+        </section>
+
+        <section class="features">
+
+            <label class="feature">
+                <input type="checkbox" name="energie" value="stromanschluss">
+                <h3>Stromanschluss</h3>
+                <p>Standard Stromversorgung vor Ort nutzen.</p>
+            </label>
+
+            <label class="feature">
+                <input type="checkbox" name="energie" value="generator">
+                <h3>Generator</h3>
+                <p>Mobiler Generator für unabhängige Stromversorgung.</p>
+            </label>
+
+            <label class="feature">
+                <input type="checkbox" name="energie" value="verlaengerung">
+                <h3>Verlängerungskabel</h3>
+                <p>Zusätzliche Kabel für flexible Stromverteilung.</p>
+            </label>
+
+            <label class="feature">
+                <input type="checkbox" name="energie" value="beleuchtung">
+                <h3>Beleuchtung</h3>
+                <p>Zusätzliche Lichtquellen für dein Event.</p>
+            </label>
+
+            <label class="feature">
+                <input type="checkbox" name="energie" value="notstrom">
+                <h3>Notstrom</h3>
+                <p>Backup-Lösung für Stromausfälle.</p>
+            </label>
+
+            <label class="feature">
+                <input type="checkbox" name="energie" value="technik">
+                <h3>Technik-Anschlüsse</h3>
+                <p>Anschlüsse für Musik, Bühne und Geräte.</p>
+            </label>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MyFoods-Eventplaner</p>
+    </footer>
+
+    <script src="../src/theme-toggle.js"></script>
+    <script src="../src/app.js"></script>
+
+</body>
+
+</html>

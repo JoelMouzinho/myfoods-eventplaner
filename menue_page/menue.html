@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menü - Eventplaner</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="../icons/icon32x32nameless.png">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-title">
+            <a href="../start_page/index.html"><img src="../icons/icon32x32.png" alt="myfoods"></a>
+            <h1>Eventplaner</h1>
+            <nav>
+                <ul>
+                    <li><a href="../unterhaltung_page/unterhaltung.html">Unterhaltung</a></li>
+                    <li><a href="../mobilliar_page/mobilliar.html">Mobilliar</a></li>
+                    <li><a href="../menue_page/menue.html">Menü</a></li>
+                    <li><a href="../energieversorgung_page/energieversorgung.html">Energieversorgung</a></li>
+                    <li><a href="../termin_page/termin.html">Termin</a></li>
+                    <li><a href="../uebersicht_page/uebersicht.html">Übersicht</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button id="theme-toggle">🌙</button>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Menü auswählen</h2>
+            <p>Sieh dir das Menü als PDF an und gib die gewünschte Menü-Nummer ein.</p>
+        </section>
+
+        <section class="features">
+
+            <!-- PDF Vorschau -->
+            <div class="feature">
+                <h3>Menü PDF</h3>
+                <div class="pdf-placeholder">
+                    <p>📄 Hier wird später das Menü-PDF angezeigt</p>
+                </div>
+            </div>
+
+            <!-- Menü Auswahl -->
+            <div class="feature">
+                <h3>Menü Nummer eingeben</h3>
+                <p>Gib die gewünschte Menü-Nummer ein:</p>
+                <input type="number" class="menu-input" placeholder="z.B. 1">
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MyFoods-Eventplaner</p>
+    </footer>
+
+    <script src="../src/theme-toggle.js"></script>
+    <script src="../src/app.js"></script>
+</body>
+
+</html>

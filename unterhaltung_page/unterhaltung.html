@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unterhaltung - Eventplaner</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="../icons/icon32x32nameless.png">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <a href="../start_page/index.html"><img src="../icons/icon32x32.png" alt="myfoods"></a>
+            <h1>Eventplaner</h1>
+            <nav>
+                <ul>
+                    <li><a href="../unterhaltung_page/unterhaltung.html">Unterhaltung</a></li>
+                    <li><a href="../mobilliar_page/mobilliar.html">Mobilliar</a></li>
+                    <li><a href="../menue_page/menue.html">Menü</a></li>
+                    <li><a href="../energieversorgung_page/energieversorgung.html">Energieversorgung</a></li>
+                    <li><a href="../termin_page/termin.html">Termin</a></li>
+                    <li><a href="../uebersicht_page/uebersicht.html">Übersicht</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button id="theme-toggle">🌙</button>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Unterhaltung auswählen</h2>
+            <p>Wähle die gewünschte Unterhaltung für dein Event aus. Du kannst mehrere Optionen kombinieren.</p>
+        </section>
+
+        <section class="features">
+            <label class="feature">
+                <input type="checkbox" name="entertainment" value="sound">
+                <h3>Sound / Musik</h3>
+                <p>Wähle Musik oder DJ für dein Event.</p>
+            </label>
+            <label class="feature">
+                <input type="checkbox" name="entertainment" value="tv">
+                <h3>TV / Filme</h3>
+                <p>Stelle einen Fernseher oder Beamer für Filme bereit.</p>
+            </label>
+            <label class="feature">
+                <input type="checkbox" name="entertainment" value="karaoke">
+                <h3>Karaoke</h3>
+                <p>Lade deine Gäste zum Mitsingen ein.</p>
+            </label>
+            <label class="feature">
+                <input type="checkbox" name="entertainment" value="band">
+                <h3>Live Band</h3>
+                <p>Biete Live-Musik auf deinem Event.</p>
+            </label>
+            <label class="feature">
+                <input type="checkbox" name="entertainment" value="spiele">
+                <h3>Spiele / Quiz</h3>
+                <p>Interaktive Spiele oder Quiz für die Gäste.</p>
+            </label>
+            <label class="feature">
+                <input type="checkbox" name="entertainment" value="comedy">
+                <h3>Comedy / Show</h3>
+                <p>Biete Unterhaltung durch Comedians oder Künstler.</p>
+            </label>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Eventplaner</p>
+    </footer>
+
+    <script src="../src/theme-toggle.js"></script>
+    <script src="../src/app.js"></script>
+</body>
+</html>
