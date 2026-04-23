@@ -189,6 +189,22 @@ main {
     cursor: pointer;
 }
 
+/* Feature Card Links - Remove purple color and underline */
+.feature a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.feature a:visited {
+    color: inherit;
+}
+
+.feature a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* PDF Platzhalter */
 .pdf-placeholder {
     width: 100%;
