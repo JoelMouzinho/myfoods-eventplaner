@@ -75,8 +75,17 @@ header img {
 
 /* Titel anpassen */
 header h1 {
+    color: var(--header-text);
     font-size: 2rem;
     margin: 0;
+}
+
+header .logo-title a {
+    text-decoration: none;
+}
+
+header .logo-title a h1 {
+    text-decoration: none;
 }
 
 /* Navigation */
